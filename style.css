@@ -5,9 +5,46 @@ body{
      font-family: 'Roboto', sans-serif;
      color: rgb(1, 1, 20);
 }
-.submit-area{
+.submit-area, .common{
     margin-top: 50px;
     border-radius: 10px;
     box-shadow: 10px 10px 20px gray;
-    padding: 40px;
+    padding:60px;
+    
+}
+#transaction-area{
+    display: none;
+}
+.deposit{
+    background-color: slateblue;
+    margin-left: 25%;
+}
+.withdraw{
+    background-color: lightsalmon;
+    margin-left: 25%;
+}
+.balance{
+    background-color: orange;
+    margin-left: 25%;
+}
+.status{
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+
+}
+.status h5{
+    padding-top: 25px;
+}
+.deposit-2{
+    height: 300px;
+}
+.withdraw-2{
+    height: 300px;
+}
+.common h4{
+    font-weight: bold;
 }

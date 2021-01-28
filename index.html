@@ -20,6 +20,44 @@
             <button id="enter-login" class="btn btn-success">LOGIN</button>
         </div>
     </div>
+    <div id="transaction-area">
+         <div class="row">
+             <div class="col-md-4">
+                 <div class="deposit status">
+                    <h5>Deposit</h5>
+                    <h2>$ <span id="currentDeposit">00</span></h2>
+                 </div>
+             </div>
+             <div class="col-md-4">
+                 <div class="withdraw status">
+                    <h5>Withdraw</h5>
+                    <h2>$ <span id="currentWithdrawAmount">00</span></h2>
+                 </div>
+             </div>
+             <div class="col-md-4">
+                 <div class="balance status">
+                    <h5>Balance</h5>
+                    <h2>$ <span id="currentBalance">1200</span></h2>
+                 </div>
+             </div>
+         </div>
+         <div class="row">
+             <div class="col-md-6">
+                 <div class="common deposit-2">
+                     <h4 class="mb-3">Deposit</h4>
+                     <input id="depositAmount" type="text" class="form-control" placeholder="$ amount you want to deposit">
+                     <button id="addDepositBtn" class="btn btn-success mt-3">Deposit</button>
+                 </div>
+             </div>
+             <div class="col-md-6">
+                 <div class="common withdraw-2">
+                     <h4 class="mb-3">Withdraw</h4>
+                     <input id="withdrawAmount" type="text" class="form-control" placeholder="$ amount you want to withdraw">
+                     <button class="btn btn-success mt-3" id="withdrawBtn">Withdraw</button>
+                 </div>
+             </div>
+         </div>
+    </div>
 
     <script src="myscript.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
